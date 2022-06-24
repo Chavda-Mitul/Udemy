@@ -1,0 +1,5 @@
+it is a program which run btw the time when server send a request or server gets a request.
+
+-> this function which is in the app.get() is the middle ware which hits when the server get or send the request.
+
+->  

@@ -1,0 +1,4 @@
+node_modules
+BMI Calculator\node_modules
+my-express-server\node_modules
+second-server\node_modules

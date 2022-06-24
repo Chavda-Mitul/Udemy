@@ -1,0 +1,15 @@
+{
+  "name": "first-module",
+  "version": "1.0.0",
+  "description": "this is the intro to the modle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitul Chavda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "supervillains": "^3.0.0"
+  }
+}

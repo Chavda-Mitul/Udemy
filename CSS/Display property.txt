@@ -1,0 +1,6 @@
+The display block will take up whole space of the screen example of it are header tags, p, ol ul li lists, forms, and divs
+you can specify the width in this 
+The diplay inline wiil take the space that it need no more than that example of it are span , img , <a> You can not change the width of the inline tags 
+The display inline-block are the one of which we can set width like block and acts as a inline elements 
+The display none is the property is the one which make the elemets disappered as it was not there 
+where as visiblity hidden will hide it but keeps the space for it as it is there but not visible 

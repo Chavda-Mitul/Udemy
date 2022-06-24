@@ -1,0 +1,6 @@
+Position property help us to position element accourding to position that we give insted of the html
+we use  top , bottom , left , right with these 
+Position static means go with the default html posiotion
+reletive means move by taking reference with the static(natural position) No other elements will get affected it will overlap other elements if its on its way
+absolute meas that the element will get positioned reletive to the body or to its parent means if we made the element position absolute and then right 20px then it will move right and then will move 20 px left from there 
+it will also afect the other elements means it one element leave then other will occupy its space

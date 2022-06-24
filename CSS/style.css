@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.first-h1{   
+    padding-top:80px;
+    font-size: 5.265rem;
+    font-family: 'Mukta', sans-serif;
+    color: #66BFBF;
+}
+
+.top{
+    background-color: #e0ebe8;
+
+}
+.top p{
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Dongle', sans-serif;
+    color: #66BFBF;
+}
+.cloud-1{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+.cloud-2{
+    position: absolute;
+    left: 950px;
+    top: 270px;
+}
+h3 , h2 {
+    color:#11999E;
+}
+
+.skill-row{
+    width: 50%;
+    /* display: inline-block; */
+    margin: 10px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.js{
+    width: 17%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.git{
+    width: 17%;
+    border-radius: 40%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row h3{
+    position: relative;
+    top: 45px;
+}
+
+.para1{
+    clear: left;
+    margin-top: 110px;
+}
+.para2{
+    clear: left;
+    margin-top: 110px;
+}
+
+
+
+.profile img{
+    margin-top: 30px;
+    width: 15%;
+    border-radius: 80%;
+}
+.profile p{
+    margin:30px auto 30px auto;
+    line-height:2;
+    width: 50%;
+}
+
+.footer-link{
+    color: #11999E;
+}
+
+hr{
+    border: 12px dotted #EAF6F6;
+    border-bottom: 0px;
+    width: 8%;
+    margin: 100px auto 100px auto;
+}
+
+.skill-main-heading{
+    font-size: 2rem;
+}
+
+.contact-me h2{
+    font-size: 2rem;
+    color: #66BFBF;
+    margin-bottom: 35px;
+}
+.contact-me h3{
+    margin-bottom: 30px;
+}
+
+.contact-me p{
+    width: 35%;
+    margin:0px auto 30px auto;
+}
+
+.btn{
+    background-color: #66BFBF;
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.bottom-container{
+    margin-top: 60px;
+    background-color: #66BFBF;
+    height: 150px;
+    
+}
+
+.footer-link {
+    color:#11999E;
+    text-decoration: none;
+    font-weight: 800;
+    margin: 30px;
+    line-height: 6;
+}
+.bottom-container p {
+    color: white;
+}

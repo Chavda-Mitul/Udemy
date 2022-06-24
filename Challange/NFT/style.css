@@ -1,0 +1,81 @@
+*{
+    background-color: rgb(13, 9, 51);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 28%;
+    max-height: 700px;
+    height: 30%;
+    border-radius:15px;
+    background-color: rgb(26, 24, 75);
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main-img{
+    width: 85%;
+    max-height: 300px;
+    margin: 30px;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    background-color: inherit;
+    text-align: left;
+    margin-left: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+}
+.main-para{
+    color: rgb(133, 133, 194);
+    background-color: inherit;
+    text-align: left;
+    padding-left: 30px;
+    width: 90%;
+    font-family: monospace;
+    font-size: large;
+}
+
+.right-span{
+    color: rgb(0, 209, 209);
+    background-color: inherit;
+    position: relative;
+    right: 83px;
+}
+
+.left-span{
+    color: rgb(133, 133, 194);
+    background-color: inherit;
+    position: relative;
+    left: 83px;
+}
+.last-para{
+    color: white;
+}
+.img{
+    background-color: inherit;
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 100%;
+    position: relative;
+    right: 25px;
+}
+.creater{
+    color: rgb(76, 76, 138);
+    background-color: inherit;
+}
+hr{
+    width: 80%;
+    margin: 25px;
+    border: 1px solid rgb(37, 33, 94);
+}
+.last-para{
+    background-color: inherit;
+    position: relative;
+    bottom: 17px;
+    display: inline-block;
+    right: 10px;
+    word-spacing: 4px;
+    font-family: Courier, monospace;
+}
