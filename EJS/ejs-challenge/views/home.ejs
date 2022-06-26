@@ -2,8 +2,10 @@
 <h1> Home </h1>
 <p> <%=homeStartingContent%> </p>
 
-         <% post.forEach( (p)=>{ %>
-             <P> <b><%= p.tittle %></b> </P>
+         <% post.forEach( (p)=> { %>
+             <h1> <b><%= p.tittle %></b> </h1>
+             <p> <%= (p.content.substring(0, 100) + "...")  %> </p>
+             <a href="http://localhost:3000/post/<%=p.tittle%>">read more</a>
          <% }) %>
 
-<%- include('partials/footer') -%>
+<%- include('partials/footer') -%>  
