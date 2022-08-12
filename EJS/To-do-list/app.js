@@ -5,7 +5,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 let items = [];
 let workItems = [];
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     const date = new Date();
