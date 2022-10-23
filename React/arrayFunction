@@ -1,0 +1,44 @@
+var numbers = [3, 56, 2, 48, 5];
+
+//Map -Create a new array by doing something with each item in an array.
+
+function double(x) {
+  return x * 2; 
+}
+
+const num = numbers.map(double);
+
+console.log(num);
+
+//Filter - Create a new array by keeping the items that return true.
+
+const num1 = numbers.filter((n) => {
+  return n > 10;
+});
+
+console.log(num1);
+
+//Reduce - Accumulate a value by doing something to each item in an array.
+
+var n = numbers.reduce(function (accumulator, currNum) {
+  return accumulator + currNum;
+});
+
+console.log(n);
+
+//Find - find the first item that matches from an array.
+
+var element = numbers.find((n) => {
+  return n > 3;
+});
+
+console.log(element);
+
+//FindIndex - find the index of the first item that matches.
+
+var index = numbers.find((n) => {
+  return n === 5;
+});
+
+console.log(index);
+
